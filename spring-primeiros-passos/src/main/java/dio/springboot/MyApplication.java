@@ -12,7 +12,7 @@ public class MyApplication implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        System.out.println("O resultado da soma é ..... :" + calculadora.somar(3,3));
+        System.out.println("O resultado da soma é  :" + calculadora.somar(3,3));
     }
 
 
