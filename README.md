@@ -1,6 +1,8 @@
 # dio-springboot
 Curso de Springboot para a digital Innovation one
 
+# Configuraçao de inicialização 
+
 Para importar o projeto  a IDE IntelliJ, siga estes passos:
 
 1. **Clone o Repositório:**
