@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class SistemaMensagem implements CommandLineRunner {
-	@Value("${name:NoReply-DIO}")
+	@Value("${name:NoReply-DIO}")// valor padrão se não achar o nome em properties
 	private String nome;
 	@Value("${email}")
 	private String email;
