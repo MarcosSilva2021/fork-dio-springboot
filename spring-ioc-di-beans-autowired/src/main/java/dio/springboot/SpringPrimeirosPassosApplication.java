@@ -19,7 +19,7 @@ public class SpringPrimeirosPassosApplication {
 		return args -> {
 			String json = "{\"cep\": \"01001-000\",\"logradouro\": \"Praça da Sé\",\"localidade\": \"São Paulo\"}";
 			ViaCepResponse response = conversor.converter(json);
-			System.out.println("Dados do CEP: " + response);
+			System.out.println("Dados do CEP : " + response);
 		};
 	}
 
