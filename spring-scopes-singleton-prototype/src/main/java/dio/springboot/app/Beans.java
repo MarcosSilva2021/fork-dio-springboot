@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Scope;
 @Configuration
 public class Beans {
     @Bean
-    @Scope("prototype")// definou como prototype, se não houvesse seria sington
+    @Scope("prototype")// definou como prototype, se não houvesse seria singleton
     public Remetente remetente(){
         System.out.println("CRIANDO UM OBJETO REMETENTE");
         Remetente remetente = new Remetente();
