@@ -3,7 +3,7 @@ package dio.springbootweb.controller;
 import dio.springbootweb.model.Usuario;
 import dio.springbootweb.repository.UsuarioRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
